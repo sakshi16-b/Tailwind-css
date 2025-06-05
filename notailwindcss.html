@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Tailwind css setup with CLI</title>
-              <link href="./output.css" rel="stylesheet">
+        <title>Core Css Header</title>
+              
+    <style>
+    body{
+        margin:0,
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        display: flex;
 
+}
+li a{ 
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding:14px;
 
-    </head>
-    <body class="bg-amber-600">
-         <h1 class="bg-red-500 text-2xl text-yellow-300">Tailwind css setup with CLI</h1>
-         <h2 class="bg-pink-500 text-2xl text-blue-600 border-amber-300">Hello World ...</h2>
-    </body>
+}
+li a:hover{
+    background-color: #00bbc0;
+}
+    
+</style>
+</head>
+    <body>
+        <ul>
+            <li><a class="active" href=#home>Home</a></li>
+            <li><a href=#news>News</a></li>
+             <li><a href=#about>About</a></li>
+              <li><a href=#contact>Contact</a></li>
 
+            </ul>
+        </body>
 </html>
