@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Interactivity with Tailwind</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <button class="bg-blue-500 rounded-md p-2 m-4 text-white">Login</button>
+    <button class="bg-blue-500 rounded-md p-2 m-4 text-white hover:bg-blue-700 hover:p-10">Login</button>
+
+    <button class="bg-blue-500 rounded-md p-2 m-4 text-white focus:bg-pink-500">Login</button>
+     <button class="bg-blue-500 rounded-md p-2 m-4 text-white active:bg-yellow-500">Login</button>
+    <button class="bg-blue-500 rounded-md p-2 m-4 text-white
+     hover:bg-blue-700
+      focus:bg-pink-500
+     active:bg-yellow-500">Login</button>
+
+<!-- Group Hover:when we want to change both the color of any element in group .first we have  to give
+class="group"to parent element  -->
+
+     <div>
+        <a class="group">
+         <h1 class =" hover:text-white group-hover:bg-black">Click me .I am heading</h1>
+        <p class="group-hover:bg-black hover:text-white">I am paragraph</p>
+        </a>
+     </div>
+  </body>
+</html>
